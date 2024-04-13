@@ -1,0 +1,111 @@
+/* Setting the font family and some basic styles for the entire page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; /* No margin around the body */
+    padding: 0; /* No padding inside the body */
+    background: linear-gradient(to bottom, #e8e8e8, #ffffff); /* Background gradient from light gray to white */
+    min-height: 100vh; /* Minimum height to cover the viewport */
+    display: flex; /* Using flexbox for layout */
+    flex-direction: column; /* Vertical column layout */
+}
+
+/* Styling for header and footer sections */
+header, footer {
+    background-color: #F6EB03     ; /* Background color for header and footer */
+    color: rgb(0, 0, 0); /* Text color for header and footer */
+    text-align: center; /* Center-aligning text */
+    padding: 20px 0; /* Padding for top and bottom */
+}
+
+/* Styling for heading elements */
+h1, h2 {
+    margin: 0; /* No margin around headings */
+}
+
+/* Styling for recipe sections */
+.recipe {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for recipe sections */
+    padding: 20px; /* Padding inside recipe sections */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-bottom: 30px; /* Margin at the bottom of each recipe section */
+}
+
+/* Styling for recipe headings */
+.recipe h2 {
+    font-size: 28px; /* Larger font size for recipe headings */
+    color: #333; /* Darker text color */
+    border-bottom: 2px solid #9c8500; /* Border line at the bottom */
+    padding-bottom: 10px; /* Padding at the bottom of headings */
+    margin-bottom: 20px; /* Margin at the bottom of headings */
+}
+
+/* Styling for ordered lists inside recipe sections */
+.recipe ol {
+    list-style-type: none; /* No list-style type */
+    padding: 0; /* No padding for lists */
+}
+
+/* Styling for list items inside recipe sections */
+.recipe li {
+    margin-bottom: 10px; /* Margin between list items */
+}
+
+/* Styling for instruction lists */
+.instructions ol {
+    counter-reset: step; /* Resetting the counter for instruction steps */
+}
+
+/* Styling for instruction list items */
+.instructions ol li {
+    counter-increment: step; /* Incrementing the counter for each instruction step */
+    margin-bottom: 15px; /* Margin between instruction steps */
+}
+
+/* Styling for instruction step numbers */
+.instructions ol li:before {
+    content: counter(step); /* Displaying the step number */
+    background-color: #ffee00; /* Background color for step numbers */
+    color: #000000; /* Text color for step numbers */
+    font-weight: bold; /* Bold font weight */
+    border-radius: 50%; /* Rounded shape */
+    width: 30px; /* Width of the step number circle */
+    height: 30px; /* Height of the step number circle */
+    display: inline-block; /* Inline-block display */
+    text-align: center; /* Center-aligning text */
+    line-height: 30px; /* Line height */
+    margin-right: 10px; /* Margin on the right side of step numbers */
+}
+
+/* Styling for footer paragraph */
+footer p {
+    font-size: 14px; /* Smaller font size for footer text */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    /* Adjusting padding for recipe sections */
+    .recipe {
+        padding: 15px; /* Reduced padding for smaller screens */
+    }
+
+    /* Adjusting font size for recipe headings */
+    .recipe h2 {
+        font-size: 24px; /* Smaller font size for recipe headings on smaller screens */
+    }
+
+    /* Adjusting size and spacing for instruction step numbers */
+    .instructions ol li:before {
+        width: 25px; /* Reduced width for step numbers */
+        height: 25px; /* Reduced height for step numbers */
+        line-height: 25px; /* Reduced line height for step numbers */
+        margin-right: 8px; /* Reduced margin on the right side of step numbers */
+    }
+}
+
+/* Styling for recipe images */
+.recipe-image {
+    max-width: 100%; /* Limiting image width to 100% */
+    display: block; /* Displaying images as block elements */
+    margin: 0 auto 20px; /* Centering images and adding margin at the bottom */
+}

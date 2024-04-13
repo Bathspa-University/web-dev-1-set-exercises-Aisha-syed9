@@ -1,0 +1,47 @@
+/* Setting the font family, margins, padding, and background for the entire page */
+body {
+    font-family: Arial, sans-serif; /* Font family for text */
+    margin: 0; /* No margin around the body */
+    padding: 0; /* No padding inside the body */
+    background-color: #fafafa; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+/* Styling for header and footer sections */
+header, footer {
+    text-align: center; /* Center-aligning text */
+    padding: 20px 0; /* Padding for top and bottom */
+    background-color: #3e046d; /* Dark blue background */
+    color: #fff; /* White text color */
+}
+
+/* Styling for main sections */
+section {
+    margin: 20px; /* Margin around each section */
+}
+
+/* Styling for tag and property containers */
+.tag, .property {
+    margin-bottom: 20px; /* Margin at the bottom of each container */
+    padding: 10px; /* Padding inside each container */
+    border: 1px solid #ccc; /* Border around each container */
+    border-radius: 5px; /* Rounded corners for each container */
+}
+
+/* Styling for headings */
+h1, h2, h3 {
+    font-weight: normal; /* Normal font weight for headings */
+}
+
+/* Styling for preformatted text */
+pre {
+    background-color: #f8f8f8; /* Light gray background for preformatted text */
+    padding: 10px; /* Padding inside preformatted text */
+    border-radius: 5px; /* Rounded corners for preformatted text */
+    overflow-x: auto; /* Horizontal scroll for overflow */
+}
+
+/* Styling for code elements */
+code {
+    font-family: Consolas, monospace; /* Font family for code */
+}
