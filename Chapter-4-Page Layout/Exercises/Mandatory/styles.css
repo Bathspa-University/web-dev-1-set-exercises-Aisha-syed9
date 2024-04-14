@@ -1,0 +1,101 @@
+/* Base styles for the body */
+body {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the header */
+header {
+  background-color: #17072b;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling for navigation links */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* Styling for sections */
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling for paragraphs */
+p {
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* Styling for the welcome section */
+.welcome {
+  padding: 20px;
+  width: 50%;
+}
+
+/* Styling for the line-up section */
+.line-up {
+  background-color: #172d67;
+  color: #FFFFFF;
+  padding: 15px;
+  width: 50%;
+  height: 50%;
+}
+
+.line-up ul {
+  list-style-type: "-";
+  font-size: 1.5rem;
+}
+
+.line-up ul li {
+  padding-left: 20px;
+}
+
+/* Styling for images */
+.images {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+  width: 48%;
+}
+
+/* Styling for the footer */
+footer {
+  background-color: #8c15e9;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Styling for headings */
+h1, h2 {
+  font-family: "Tahoma", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+/* Styling for images */
+img {
+  max-width: 100%;
+  height: auto;
+}

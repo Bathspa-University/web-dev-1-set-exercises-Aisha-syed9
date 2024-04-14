@@ -1,0 +1,107 @@
+/* Base styles for the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font family for the body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url('colorful-paper-clips-spiral-notebook-with-pen-adhesive-notes-white-background.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire background */
+}
+
+/* Container styles */
+.container {
+    width: 80%; /* Set container width */
+    margin: 0 auto; /* Center align container */
+}
+
+/* Header styles */
+header {
+    background-color: rgba(44, 62, 80, 0.8); /* Semi-transparent background color */
+    color: #ecf0f1; /* Text color */
+    padding: 20px 0; /* Add padding */
+    text-align: center; /* Center align text */
+}
+
+/* Navigation styles */
+nav {
+    background-color: rgba(52, 73, 94, 0.8); /* Semi-transparent background color */
+    color: #ecf0f1; /* Text color */
+    padding: 10px 0; /* Add padding */
+    text-align: center; /* Center align text */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 20px; /* Add margin around list items */
+}
+
+nav ul li a {
+    color: #ecf0f1; /* Text color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Main content styles */
+main {
+    padding: 20px 0; /* Add padding */
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px; /* Add margin at the bottom */
+}
+
+/* Column styles */
+.column {
+    width: calc(33.33% - 20px); /* Set column width */
+    float: left; /* Float columns to the left */
+    margin-right: 20px; /* Add margin between columns */
+}
+
+.column:last-child {
+    margin-right: 0; /* Remove margin from the last column */
+}
+
+/* Module styles */
+.module {
+    background-color: rgba(236, 240, 241, 0.9); /* Semi-transparent background color */
+    border-radius: 5px; /* Add border radius */
+    padding: 20px; /* Add padding */
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.module h3 {
+    color: #2c3e50; /* Heading color */
+    margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+.module p {
+    color: #34495e; /* Paragraph color */
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+/* Button styles */
+.btn {
+    display: inline-block; /* Display button as inline-block */
+    background-color: #3498db; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Add padding */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Add border radius */
+    transition: background-color 0.3s; /* Add transition effect */
+}
+
+.btn:hover {
+    background-color: #2980b9; /* Change background color on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(44, 62, 80, 0.8); /* Semi-transparent background color */
+    color: #ecf0f1; /* Text color */
+    padding: 10px 0; /* Add padding */
+    text-align: center; /* Center align text */
+}
