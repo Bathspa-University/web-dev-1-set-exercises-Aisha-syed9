@@ -1,0 +1,21 @@
+/* Setting up the layout for the body */
+body {
+    display: flex; /* Using flexbox for layout */
+    justify-content: center; /* Centering content horizontally */
+    align-items: center; /* Centering content vertically */
+    height: 100vh; /* Making the body take up the full viewport height */
+    margin: 0; /* Removing default margin */
+    background-color: black; /* Setting a black background */
+}
+
+/* Styling for the video container */
+.video-container {
+    max-width: 80%; /* Limiting the maximum width of the video container */
+}
+
+/* Styling for the video element */
+video {
+    width: 700px; /* Setting a fixed width for the video */
+    height: auto; /* Ensuring aspect ratio is maintained */
+    display: block; /* Making the video a block-level element */
+}
