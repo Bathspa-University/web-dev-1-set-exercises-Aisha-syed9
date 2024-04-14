@@ -1,0 +1,73 @@
+/* Styling for the body of the document */
+body {
+    font-family: Arial, sans-serif; /* Setting font family */
+    background-color: #000000; /* Setting background color to black */
+    margin: 0; /* Removing default margin */
+    padding: 0; /* Removing default padding */
+    display: flex; /* Using flexbox for centering */
+    justify-content: center; /* Horizontally centering content */
+    align-items: center; /* Vertically centering content */
+    height: 100vh; /* Setting full viewport height */
+}
+
+/* Styling for the container div */
+.container {
+    background-color: #e68fa5; /* Setting background color */
+    border-radius: 20px; /* Adding border radius for rounded corners */
+    padding: 45px; /* Adding padding inside the container */
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow effect */
+}
+
+/* Styling for the main heading */
+h1 {
+    text-align: center; /* Centering the text */
+    margin-bottom: 20px; /* Adding bottom margin */
+    color: #ffffff; /* Setting text color */
+}
+
+/* Styling for input containers */
+.input-container {
+    margin-bottom: 14px; /* Adding bottom margin */
+}
+
+/* Styling for labels */
+label {
+    display: block; /* Displaying labels as blocks */
+    margin-bottom: 5px; /* Adding bottom margin */
+    font-weight: bold; /* Making labels bold */
+}
+
+/* Styling for input fields */
+input {
+    width: 88%; /* Setting width */
+    padding: 10px; /* Adding padding */
+    border: 1px solid #ddd; /* Adding border */
+    border-radius: 5px; /* Adding border radius */
+    font-size: 16px; /* Setting font size */
+}
+
+/* Styling for buttons */
+button {
+    width: 100%; /* Setting width */
+    padding: 10px; /* Adding padding */
+    border: none; /* Removing border */
+    border-radius: 5px; /* Adding border radius */
+    background-color: #740202; /* Setting background color */
+    color: #ffffff; /* Setting text color */
+    font-size: 16px; /* Setting font size */
+    cursor: pointer; /* Changing cursor to pointer */
+    transition: background-color 0.3s; /* Adding transition effect */
+}
+
+/* Styling for button hover effect */
+button:hover {
+    background-color: #2980b9; /* Changing background color on hover */
+}
+
+/* Styling for paragraph */
+p {
+    text-align: center; /* Centering text */
+    margin-top: 20px; /* Adding top margin */
+    font-size: 18px; /* Setting font size */
+    font-weight: bold; /* Making text bold */
+}
