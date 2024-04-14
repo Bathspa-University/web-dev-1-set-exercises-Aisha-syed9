@@ -1,0 +1,72 @@
+/* Styling for all div elements */
+div {
+    /* Make divs behave like inline-block elements */
+    display: inline-block;
+    /* Set the default font family */
+    font-family: sans-serif;
+    /* Set the default font size */
+    font-size: 20px;
+    /* Add margin around each div */
+    margin: 25px;
+    /* Add a solid black border to each div */
+    border: 4px solid black;
+    /* Set the line height */
+    line-height: 100px;
+    /* Center the text horizontally */
+    text-align: center;
+    /* Set the width of each div */
+    width: 200px;
+    /* Set the height of each div */
+    height: 200px;
+}
+
+/* Styling for the body */
+body {
+    /* Reset margin to 0 */
+    margin: 0;
+    /* Use flexbox for layout */
+    display: flex;
+    /* Center content horizontally */
+    justify-content: center;
+    /* Center content vertically */
+    align-items: center;
+    /* Set minimum height of the body to the viewport height */
+    min-height: 100vh;
+}
+
+/* Custom styles for the first div */
+div:nth-of-type(1) {
+    /* Purple border color */
+    border-color: rgb(177, 63, 177);
+    /* Red shadow with offset */
+    box-shadow: 10px 10px 6px rgb(226, 21, 21);
+}
+
+/* Custom styles for the second div */
+div:nth-of-type(2) {
+    /* Inset black shadow */
+    box-shadow: 10px 10px 5px inset rgba(0, 0, 0, 0.838);
+    /* Green border color */
+    border-color: rgb(0, 255, 0);
+}
+
+/* Custom styles for the third div */
+div:nth-of-type(3) {
+    /* Orange border color */
+    border-color: rgb(255, 157, 0);
+    /* Inner red, middle green, and outer yellow borders */
+    box-shadow:
+        0 0 0 10px rgb(17, 0, 255),   /* Inner red border */
+        0 0 0 18px rgb(226, 21, 21),   /* Middle green border */
+        0 0 0 25px rgb(0, 145, 0);    /* Outer yellow border */
+    /* Rounded corners */
+    border-radius: 10%;
+}
+
+/* Custom styles for the fourth div */
+div:nth-of-type(4) {
+    /* Dark red border color */
+    border-color: rgb(168, 33, 33);
+    /* Shadow for text */
+    text-shadow: 4px 4px;
+}

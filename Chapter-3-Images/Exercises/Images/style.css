@@ -1,0 +1,74 @@
+/* Styling for the body including background image */
+body {
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(11, 0, 59); /* Fallback background color */
+  background-repeat: no-repeat;
+}
+
+/* Styling for the container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for the container of images */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 50px;
+}
+
+/* Styling for images */
+.image-container img {
+  height: 300px;
+  width: 400px;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+
+/* Styling for the title */
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 800;
+  color: rgb(255, 255, 255); /* Blue color for the title */
+}
+
+/* Styling for paragraphs */
+p {
+  color: white;
+  text-align: center;
+  margin: 80px,0; /* Adjust margin for better spacing */
+}
+
+/* Styling for links within paragraphs */
+.image-credit a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Image filter effects */
+/* Effect 1: Grayscale */
+.image-container img.effect1 {
+  filter: grayscale(100%);
+}
+
+/* Effect 2: Sepia */
+.image-container img.effect2 {
+  filter: sepia(80%);
+}
+
+/* Effect 3: Brightness and Contrast */
+.image-container img.effect3 {
+  filter: brightness(70%) contrast(150%);
+}
+
+/* Effect 4: Saturation */
+.image-container img.effect4 {
+  filter: saturate(200%);
+}
