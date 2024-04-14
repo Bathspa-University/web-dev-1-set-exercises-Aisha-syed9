@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #360000; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #360000; 
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #ffffff; 
+}
+
+h1 {
+    color: #ffffff; 
+    
+}
+
+footer {
+    background-color: #360000; /* Blood red */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add line under h2 */
+h2 {
+    border-bottom: 2px solid rgb(229, 255, 0);
+    padding-bottom: 10px; /* Optional: adjust padding as needed */
+}
+

@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Dark background */
+    color: #000000; /* White text */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #360000; 
+    color: #941313;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #00146d; 
+}
+
+h1 {
+    color: #ffffff; 
+}
+
+footer {
+    background-color: #360000; /* Blood red */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add line under h2 */
+h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px; /* Optional: adjust padding as needed */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #cc0000; /* Blood red */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff3333; /* Lighter red on hover */
+}
+
+
