@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #8d8d8d; /* Dark gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #000000; /* Black background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+h1 {
+    color: #ffffff; /* White text */
+    margin-bottom: 30px;
+}
+
+.soundboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 10px;
+}
+
+.sound-button {
+    padding: 15px 20px;
+    background-color: #ffffff; /* White button background */
+    border: none;
+    border-radius: 8px;
+    color: #000000; /* Black button text */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sound-button:hover {
+    background-color: #500000; /* Dark red background on hover */
+}
+
+.text-to-speech {
+    margin-top: 30px;
+    color: white; /* White text color */
+}
+
+.text-to-speech h2 {
+    color: #ffffff; /* White text color */
+    margin-bottom: 10px;
+}
+
+.text-to-speech textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.text-to-speech button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #00ff22; /* Green button background */
+    border: none;
+    border-radius: 5px;
+    color: #000000; /* Black button text */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.text-to-speech button:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    background-color: #007bff; /* Blue button background */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* White button text */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination button:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+}

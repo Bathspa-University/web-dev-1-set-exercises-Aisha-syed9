@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Partridge Soundboard</title>
+    <link rel="stylesheet" href="audio.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header with the title centered -->
+        <center><h1>Alan Partridge Soundboard</h1></center>
+        
+        <!-- Container for soundboard buttons -->
+        <div class="soundboard" id="soundboard"></div>
+        
+        <!-- Text-to-speech section -->
+        <div class="text-to-speech">
+            <h2>Text to Speech</h2>
+            <!-- Textarea for input -->
+            <textarea id="text-to-speech-input" rows="4" cols="50" placeholder="Type something here..."></textarea>
+            <!-- Button to trigger text-to-speech -->
+            <button id="text-to-speech-button">Speak</button>
+        </div>
+        
+        <!-- Pagination buttons -->
+        <div class="pagination">
+            <!-- Button to navigate to previous page -->
+            <button id="prev-page">◀</button>
+            <!-- Button to navigate to next page -->
+            <button id="next-page">▶</button>
+        </div>
+    </div>
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
